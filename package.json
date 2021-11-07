@@ -7,6 +7,7 @@
     "prettier": "prettier --write \"./**/*.{ts,js,md,json}\"",
     "dev": "nodemon -r esm  ./src/app.js",
     "dev:mpvoice": "nodemon -r esm  ./src/mpvoice.js",
+    "dev:mppdf": "nodemon -r esm  ./src/mppdf.js",
     "build": "node -r esm  ./src/app.js"
   },
   "repository": {
@@ -24,6 +25,8 @@
     "axios": "^0.24.0",
     "cheerio": "^1.0.0-rc.10",
     "filenamify": "^4.1.0",
+    "markdown-pdf": "^10.0.0",
+    "percollate": "^1.2.6",
     "request": "^2.88.2"
   },
   "devDependencies": {
