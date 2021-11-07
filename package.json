@@ -1,0 +1,36 @@
+{
+  "name": "node-crawler",
+  "version": "1.0.0",
+  "description": "一个 node 爬虫自用工具",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write \"./**/*.{ts,js,md,json}\"",
+    "dev": "nodemon -r esm  ./src/app.js",
+    "dev:mpvoice": "nodemon -r esm  ./src/mpvoice.js",
+    "build": "node -r esm  ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanyue404/node-crawler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanyue404/node-crawler/issues"
+  },
+  "homepage": "https://github.com/yanyue404/node-crawler#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "filenamify": "^4.1.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "dumper.js": "^1.3.1",
+    "esm": "^3.2.25",
+    "kill-port": "^1.6.1",
+    "nodemon": "^2.0.14",
+    "prettier": "^2.4.1"
+  }
+}

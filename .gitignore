@@ -1,0 +1,17 @@
+# always ignore files
+*.DS_Store
+.idea
+*.sublime-*
+build
+
+# npm
+node_modules
+npm-debug.log
+package-lock.json
+
+# yarn
+yarn.lock
+yarn-error.log
+
+# 导出的结果
+docs/mpvoice
